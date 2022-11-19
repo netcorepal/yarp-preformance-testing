@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
-    <PackageReference Include="Yarp.Kubernetes.Controller" Version="2.0.0-preview.1.2211100308" />
+    <PackageReference Include="Yarp.ReverseProxy" Version="2.0.0-preview.1.22564.5" />
   </ItemGroup>
 
 </Project>

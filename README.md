@@ -11,6 +11,6 @@ docker build -f yarp/Dockerfile -t yarp:1 .
 
 ```Shell
 docker network create yarp
-docker run -d --name backend -t backend:1 --network yarp
-docker run -d --name yarp -t backend:1 --network yarp -p 81:80
+docker run -d --name backend  --network yarp -t backend:1
+docker run -d --name yarp  -p 81:80 --network yarp  -t yarp:1
 ```
